@@ -4,7 +4,7 @@ import numpy as np
 import plotly.graph_objects as go
 from sklearn.ensemble import RandomForestRegressor
 
-st.title("Dynamic Pricing Model")
+st.title("Dynamic Pricing App")
 
 # Load data
 data = pd.read_csv("dynamic_pricing.csv")
